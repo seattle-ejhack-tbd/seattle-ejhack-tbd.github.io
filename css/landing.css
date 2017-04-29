@@ -15,8 +15,9 @@
 }
 
 .bill {
+    display: block;
     width: 375px;
-    height: 300px;
+    float: left;
 }
 
 .billTitle {
