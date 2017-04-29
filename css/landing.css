@@ -1,0 +1,5 @@
+#bill_container {
+    width: 375px;
+    overflow: hidden;
+    background-image : url("/img/fence.png")
+}
