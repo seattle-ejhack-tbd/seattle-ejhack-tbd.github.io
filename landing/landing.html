@@ -27,11 +27,11 @@
         var currBill = 0;
   
         function moveBillLeft() {
-           $("#bills").animate({ left: "+=375"} 5000, function(){currBill=currBill+1;});
+           $("#bills").animate({ left: "+=375"}, 5000, function(){currBill=currBill+1;});
         }
 
         function moveBillRight() {
-           $("#bills").animate({ left: "-=375"} 5000, function(){currBill=currBill+1;});
+           $("#bills").animate({ left: "-=375"}, 5000, function(){currBill=currBill+1;});
         }
         
         $("#bills").on("swipeleft", function(event) {
