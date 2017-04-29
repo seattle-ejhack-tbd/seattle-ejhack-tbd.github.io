@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Pramila Jayapal",
+        "phone":"202-225-3106",
+        "twitter":"@RepJayapal",
+        "district": "7th",
+        "party": "Democrat",
+        "img":"https://www.govtrack.us/data/photos/412730-200px.jpeg"
+    },
+    {
+        "name":"Cathy McMorris Rodgers",
+        "phone":"202-225-2006",
+        "twitter":"@CathyMcMorris",
+        "district": "5th",
+        "party": "Republican",
+        "img":"https://www.govtrack.us/data/photos/400659-200px.jpeg"
+    },
+    {
+        "name":"Derek Kilmer",
+        "phone":"202-225-5916",
+        "twitter":"@RepDerekKilmer",
+        "district": "6th",
+        "party": "Democrat",
+        "img":"https://www.govtrack.us/data/photos/412583-200px.jpeg"
+    }
+]

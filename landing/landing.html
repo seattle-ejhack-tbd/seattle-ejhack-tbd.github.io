@@ -2,6 +2,8 @@
   <head>
     <meta charset="utf-8"/>
     <title>Off The Fence</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/landing.css" media="screen" />
         <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -16,13 +18,35 @@
         var bills = $.parseJSON(data);
         bills.forEach(function(bill) {
         $("#bills").append("<div class='bill'><span class='billTitle'>"
-          + bill.title + "</span> <span class='billSummary'>" + bill.summary +
+          + bill.title + "</span> <span class='billSummary'>" + bill.summary
           + "</span>")
          });
         
-      }
+        }
+
+        var currBill = 0;
+  
+        function moveBillLeft() {
+           $("#bills").animate({ left: "+=375"}, 5000, function(){currBill=currBill+1;});
+        }
+
+        function moveBillRight() {
+           $("#bills").animate({ left: "-=375"}, 5000, function(){currBill=currBill+1;});
+        }
         
-      $(document).ready(function() {
+        $("#bills").on("swipeleft", function(event) {
+           if (currBill < 5) {
+               moveBillLeft();
+           }
+          });
+
+        $("#bills").on("swiperight", function(event) {
+        if (currBill > 0) {
+           moveBillRight();
+          }
+        });
+                    
+         $(document).ready(function() {
          $.get("/bills/current", renderBills) 
       });
     </script>
