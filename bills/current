@@ -1,0 +1,24 @@
+[{ "id" :  "HR806",
+   "title" : "Ozone Standards Implementation Act of 2017",
+   "summary" : "To facilitate efficient State implementation of ground-level ozone standards, and for other purposes."
+ },
+ { "id" : "S822",
+   "title" : "BUILD Act",
+   "summary" : "A bill to amend the Comprehensive Environmental Response, Compensation, and Liability Act of 1980 to modify provisions relating to grants, and for other purposes."
+ },
+ {
+     "id" : "HR468",
+     "title" : "Foreign Spill Protection Act of 2017",
+     "summary" : "To amend the Oil Pollution Act of 1990 to impose penalties and provide for the recovery of removal costs and damages in connection with certain discharges of oil from foreign offshore units, and for other purposes."
+
+ },
+ {
+     "id" : "HR1674",
+     "title" : "Long Island Sound Restoration and Stewardship Act",
+     "summary" : "To amend and reauthorize certain provisions relating to Long Island Sound restoration and stewardship."
+ },
+ {
+     "id" : "HR1154",
+     "title" : "Commercial Vessel Incidental Discharge Act",
+     "summary" : "To provide for the establishment of nationally uniform and environmentally sound standards governing discharges incidental to the normal operation of a commercial vessel."
+ }]
