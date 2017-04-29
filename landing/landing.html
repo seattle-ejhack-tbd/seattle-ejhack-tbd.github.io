@@ -14,11 +14,11 @@
     <script>
       function renderBills(data) {
         var bills = $.parseJSON(data);
-        for (var bill in bills) {
+        bills.forEach(function(bill) {
         $("#bill_container").append("<div class='bill'><span class='billTitle'>"
           + bill.title + "</span> <span class='billSummary'>" + bill.summary +
           + "</span>")
-         }
+         });
         
       }
         
