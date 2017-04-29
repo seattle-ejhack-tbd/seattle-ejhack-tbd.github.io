@@ -12,7 +12,8 @@
       integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
       crossorigin="anonymous"></script>
     <script>
-      function renderBills(bills) {
+      function renderBills(data) {
+        var bills = $.parseJSON(data);
         for (var bill in bills) {
         $("#bill_container").append("<div class='bill'><span class='billTitle'>"
           + bill.title + "</span> <span class='billSummary'>" + bill.summary +
