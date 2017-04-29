@@ -8,3 +8,28 @@
     background-repeat: no-repeat;
     background-position: bottom;                      
 }
+
+#bills {
+    width: 1875px;
+    height: 100%;
+}
+
+.bill {
+    width: 375px;
+    height: 300px;
+}
+
+.billTitle {
+   display: block;
+   font-size: medium;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;   
+}
+
+.billSummary {
+    display: block;
+    text-align:justify;
+    marge-bottom: 20px;
+}
