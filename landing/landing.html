@@ -15,7 +15,7 @@
       function renderBills(data) {
         var bills = $.parseJSON(data);
         bills.forEach(function(bill) {
-        $("#bill_container").append("<div class='bill'><span class='billTitle'>"
+        $("#bills").append("<div class='bill'><span class='billTitle'>"
           + bill.title + "</span> <span class='billSummary'>" + bill.summary +
           + "</span>")
          });
@@ -29,7 +29,8 @@
   </head>
 <body>
   <div id="bill_container">
-    
+    <div id="bills">
+    </div>
   </div>
 </body>
 </html>
