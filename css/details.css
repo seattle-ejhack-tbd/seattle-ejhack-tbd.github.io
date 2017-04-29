@@ -1,0 +1,10 @@
+#details {
+    width: 375px;
+    height: 559px;
+    overflow: hidden;
+    margin: auto;
+    background-image : url("/imgs/fence.png")
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;                      
+}
